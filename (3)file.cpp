@@ -11,7 +11,7 @@ int main()
     cout << "Enter number of students: "; // Syntax analysis
     cin >> n;
 
-    ofstream fout("students.txt");
+    ofstream fout("student.txt");
     for (int i = 0; i < n; i++)  // Syntax analysis (loop)
     {
         cout << "Enter name of student " << i + 1 << ": "; // Syntax analysis
